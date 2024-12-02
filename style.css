@@ -1,6 +1,17 @@
 * {
+    margin: 0;
+    padding: 0;
     background-color: rgb(231, 217, 23);
 }
+
+header h1{
+  color: white;
+  text-align: center;
+  background-color: black;
+  z-index: 1;
+  padding: 13px;
+}
+
 
 .wrap {
     margin: 30px auto;
@@ -184,4 +195,18 @@
   .box:hover .translateZ {
     transform: rotate3d(3, 2, 2, 90deg) translateZ(50px);
 
+  }
+
+  footer p {
+      color: white;
+      text-align: center;
+      background-color: black;
+      z-index: 1;
+      padding: 13px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
   }
